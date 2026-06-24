@@ -1,0 +1,6 @@
+This repository contains statistical data related to the mitigation of tumor cell population through conventional SMC, integral SMC, and Adaptive Smooth SMC algorithms, utilized in the following article: "SMC-Based Smooth Adaptive Control Framework for Tumor Mitigation under Combined RAdio-Chemotherapy". The data is collected through MATLAB simulations. 
+Contents of Dosage_CSV The file: Dosage_CSV contians initial conditions of states T and N, at which the considered algorithms have been simulated to record the data of total administered dosages of radiation and chemotherapeutic drug for tumor mitigation, throughout the therapy.
+
+Contents of "Statistical Data" file: "Statistical Data" contains the data regarding the initial conditions, values of the estimated parameters and observed duration of combined therapy taken by conventional SMC, inntegral SMC and the proposed AMIS-SMC algorithms to decimate tumor cell population.
+
+Contents of statistical_analysis.m The file: statistical_analysis.m utilizes the data collected in file: Statistical Data and performs the Mann-Whitney U test and Fisher's test on the collected data to prove statistically that which of the considered algorithms reduces treatment dosages and therapy time in comparison to others.
